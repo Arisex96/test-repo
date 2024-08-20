@@ -10,3 +10,13 @@ git add . /file location
 git status
 git commit -m "message"
 git log --online
+
+git branch (u can check head file)
+git branch bug-fix (it creates a new timeline)
+(when we go to master branch again , all the changes will vanish)
+git switch bug-fix
+git log
+git switch master
+git switch -c dark-mode (it simultaneously creates and 
+switches if file does not exsist already)
+git checkout orange-mode (similarly it is also used to switch)
